@@ -20,12 +20,12 @@ Once the bases case is reached, the program carries out the all the merges for e
 
 Consider exploring <a href="https://www.tutorialspoint.com/cprogramming/c_recursion.htm">recurssion</a>
 
-#Algorithm
+# Algorithm
 
-MERGE-SORT(A,p,r)
-  if(p<q)
-    m = r/2;
-    MERGE-SORT(A,p,m);
-    MERGE-SORT(A,m + 1, r);
-    MERGE(A,p,m,r);
-END;
+<p>MERGE-SORT(A,p,r)</p>
+<p>&emsp;  if(p < r) </p>
+<p>&emsp;    m = r/2;</p>
+<p>&emsp;    MERGE-SORT(A,p,m);</p>
+<p>&emsp;    MERGE-SORT(A,m + 1, r);</p>
+<p>&emsp;    MERGE(A,p,m,r);</p>
+<p>END;</p>
