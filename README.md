@@ -24,8 +24,8 @@ Consider exploring <a href="https://www.tutorialspoint.com/cprogramming/c_recurs
 
 <p>MERGE-SORT(A,p,r)</p>
 <p>&emsp;  if(p < r) </p>
-<p>&emsp;    m = r/2;</p>
-<p>&emsp;    MERGE-SORT(A,p,m);</p>
-<p>&emsp;    MERGE-SORT(A,m + 1, r);</p>
-<p>&emsp;    MERGE(A,p,m,r);</p>
+<p>&emsp; &emsp;    m = r/2</p>
+<p>&emsp; &emsp;   MERGE-SORT(A,p,m)</p>
+<p>&emsp; &emsp;   MERGE-SORT(A,m + 1, r)</p>
+<p>&emsp; &emsp;   MERGE(A,p,m,r)</p>
 <p>END;</p>
